@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>One Stop</title>
+		<meta charset="UTF-8">
+		<meta name="description" content="About page of One Stop">
+		<meta name="author" content="Christina Peebles, Itssel Sanchez, Joseph Sharpee, William Wang">
+		<link href="homepage.css" rel="stylesheet">
+		<script defer src="about.js"></script>
+	</head>
+
+	<body>
+		<header>
+			<div id="bar">
+				<a href="homepage.php">
+					<img id="logo" src="logo.png" alt="One Stop Logo">
+				</a>
+				<nav>
+					<a href="homepage.php">
+						<div class="nav_l">Home</div>
+					</a>
+					<a href="about.html">
+						<div class="nav_l">About</div>
+					</a>
+					<a href="self_care.html">
+						<div class="nav_l">Self-Care</div>
+					</a>
+					<a href="study_tips.html">
+						<div class="nav_l">Study Tips</div>
+					</a>
+					<a href="contact_us.html">
+						<div class="nav_l">Contact</div>
+					</a>
+				</nav>
+			</div>
+		</header>
+
+		<div id="about">
+      		<div class="main">Our Mission</div>
+
+			<div class="descrip" id="intro">
+				College is stressful enough without having to scour the internet for all the tools and information needed to even get started. We aim to provide One-Stop for students. Hover over the image below for more information!
+			</div>
+
+      		<div class="popup" id="music">
+				<div class="sub">Music</div>
+				<div class="popup_text">One-Stop provides relaxing music to improve the quality of time spent studying, without the inconvenience of having multiple apps/websites to switch between. </div>
+      		</div>
+      		<div class="popup" id="organization">
+				<div class="sub">Organization</div>
+				<div class="popup_text">We understand that you have to keep up with a multitude of different tasks on a daily basis, and staying organized is the only way to succeed. Our customizable calendar is designed to keep you on track.</div>
+      		</div>
+     		<div class="popup" id="rest">
+				<div class="sub">Rest</div>
+				<div class="popup_text">Just as important to your success as good study habits, your mental and physical health should be a priority. Maintain your performance, and your happiness with our self-care guide.</div>
+      		</div>
+      		<div class="popup" id="tips">
+				<div class="sub">Tips</div>
+				<div class="popup_text">Access our list of helpful study tips and tricks to give you a leg up on your upcoming exams.</div>
+      		</div>
+			<div id="wrap">
+			<img src="graphic.png" alt="Pic of Graphic" usemap="#workmap" width="400" height="379">
+
+			<map name="workmap">
+				<area shape="rect" coords="467,242,589,308" alt="Music" onmouseover = "musicOn()" onmouseout = "musicOff()">
+				<area shape="rect" coords="461,24,642,108" alt="Organization" onmouseover = "organizationOn()" onmouseout = "organizationOff()">
+				<area shape="rect" coords="45,39,205,147" alt="Tips + Tricks" onmouseover = "tipsOn()" onmouseout = "tipsOff()">
+				<area shape="rect" coords="28,240,197,358" alt="Rest + Replenish" onmouseover = "restOn()" onmouseout = "restOff()">
+			</map>
+			</div>
+    	</div>
+
+		<footer>
+			<p>Copyright 2021 Christina Peebles, Itssel Sanchez, Joseph Sharpee, William Wang</p>
+			<p>Page Last Updated: 04/27/2021</p>
+		</footer>
+
+	</body>
+</html>
+
+
+
+
